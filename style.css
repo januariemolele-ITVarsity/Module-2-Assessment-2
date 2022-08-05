@@ -1,0 +1,252 @@
+body{
+    
+    padding :0;
+    margin :0;
+    font-family: Times New Roman;
+}
+
+h2{
+   color: tan;
+    text-align: center;
+}
+
+/*===========Header===========*/
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-image: url('images/mall%20view%201.jpeg');
+    background-repeat: repeat-x;
+    background-size: 300px
+}
+
+#header img{
+    display: block;
+    margin: auto;
+    height: 70%;
+    padding-top: 15px;
+}
+/*===========Tabs-Top===========*/
+#tabs-top{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: tan;
+}
+
+#tabs-top a:hover{
+    cursor: pointer;
+    color: white;
+    background: black;
+}
+
+#tabs-top a{
+    float :left;
+    display: block;
+    width: 25%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+/*===========Tabs-Bottom===========*/
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: burlywood;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: none;
+}
+
+#tabs-bottom a:hover{
+    cursor: pointer;
+    color: white;
+    background: black;
+}
+/*===========Home===========*/
+#main-home{
+    margin-top: 120px;
+}
+
+#notices img{
+    text-align: center;
+    padding: 6px 6%;
+    width: 80%;
+}
+
+/*===========Map===========*/
+#map-home{
+    margin-top: 120px;
+}
+#map-home img{
+    text-align: center;
+}
+
+/*===========Main===========*/
+#main{
+    margin-top: 119px;
+}
+
+/*===========Info-Box-Full===========*/
+#info-box-full{
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 50px;
+}
+
+#info-box-full img{
+    width: 90%;
+}
+
+#info-box-full h3{
+    text-align: left;
+}
+
+#info-box-full p{
+    margin  : 0;
+    padding : 0;
+    width   : 90%;
+    background: beige;
+    color : #131313;
+    font-size: 20px;
+}
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    background-color: burlywood;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+/*===========Content & Info-box Class===========*/
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+    
+}
+a.info-box{
+   text-decoration : none;
+    background : rgba(255, 255, 255, .8);
+    width : 90%;
+    height : 90px;
+    display : block;
+    margin : auto;
+    margin-top : 12px;
+    padding : 1px; 
+}
+
+a.info-box:hover{
+    cursor: pointer;
+    background: beige;
+}
+
+.info-box img{
+    height: 70px;
+    margin: 10px;
+    float: left;
+    
+}
+.info-box h3{
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: tan;
+}
+
+.info-box p{
+      margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color   : #131313;
+}
+
+.info-box img.right{
+      float:  right;
+      margin-top: 25px;
+      height: 40px; 
+}
+/*===========Info-Content===========*/
+
+#info-content{
+    text-align: center;
+    padding-top: 160px;
+}
+
+#info-content img{
+    width: 80%;
+    text-align: center; 
+}
+
+#info-content h1{
+    color: tan;
+}
+
+#info-content h2{
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    outline-color: lightgray;
+    outline-width: thin;
+    outline-style: solid;
+    background-color: burlywood;
+}
+
+#info-content p{
+    font-size: 20px;
+}
+
+#infobox{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: beige;
+    outline-color: lightgray;
+    outline-width: thin;
+    outline-style: solid;
+}
